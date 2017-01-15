@@ -1,0 +1,307 @@
+@charset "UTF-8";
+html, body {
+    background: gainsboro;
+    font-family: roboto, serif, "Times New Roman";
+    font-size: large;
+    font-size-adjust: inherit; 
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: darkslategray;
+    margin: 5px;
+    padding: 0px;
+    max-width: 100%;
+    background-position: 50% 50%;
+    unicode-bidi: normal;
+}
+header {
+    margin: 5px;
+    color: darkgoldenrod;
+    background-color: antiquewhite;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+header h1, header nav {
+    margin: 5px;
+    color: darkgoldenrod;
+    background-color: antiquewhite;
+    text-align: center;
+    font-style: italic;
+    display: inline;
+    padding: 5px 10px;
+    padding-top: auto;
+    width: 100%;
+}
+#nav {
+    color: darkgoldenrod;
+    text-align: center;
+    font-style: oblique;
+    width: 100%;
+    padding-top: auto;
+    display: inline;
+    margin: 5px;
+    padding: 5px 5px;
+    background-color: antiquewhite;
+    vertical-align: central;
+    letter-spacing: 0px;
+}   
+/*unvisited link*/
+a:link {
+    color: goldenrod;
+    text-decoration: none;
+    background-color: gainsboro;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+/*visited link*/
+a:visited {
+    color: darkslategray;
+    text-decoration: none;
+    background-color: gainsboro;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+/*mouse over link */
+a:hover {
+    background-color: cadetblue;
+    color: goldenrod;
+    text-decoration: underline;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+/*selected link*/
+a:active {
+    background-color: antiquewhite;
+    color: cadetblue;
+    text-decoration: underline;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+.logo {
+    width: 50px;
+    margin: 5px;
+}
+h2, h3, h4, h5, h6, div, form, section {
+    color: darkgoldenrod; 
+    background-color: gainsboro;
+    vertical-align: central;
+    text-align: center;
+    padding: 10px 10px;
+    display: inline-table;
+    margin: 5px;
+    word-spacing: 2px;
+}
+ul, li {
+    color: darkslategray;
+    background-color: antiquewhite;
+    padding: 5px;
+    vertical-align: central;
+    text-align: center;
+    display: inline-table;
+    margin: 5px;
+    border-radius: 10px;
+    word-spacing: 1px;
+}
+ul.a {
+    color: darkslategray;
+    background-color: antiquewhite;
+    padding: 10px;
+    vertical-align: central;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+}
+p.div, p.ul, p.logo, p.span {
+    color: darkslategray;
+    background-color: antiquewhite;
+    vertical-align: central;
+    text-align: center;
+    display: inline-table;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    letter-spacing: 0px;
+    width: 100%;
+}
+div.p {
+    color: darkslategray;
+    background-color: gainsboro;
+    vertical-align: central;
+    text-align: center;
+    letter-spacing: 0px;
+    display: inline-table;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+p.image {
+    display: inline;
+    width: 110px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+address {
+    display: block;
+    font-style: italic; 
+    color: darkslategray;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 0px;
+}
+footer {
+    color: darkslategrey;
+    background-color: antiquewhite;
+    display: inline-table;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    font-size: medium;
+    width: 100%;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 5, 2017, 12:08:49 PM
+    Author     : User
+*/
+
+/* for posts page below */
+
+* {
+    box-sizing: border-box;
+}
+.header3 {
+    background-color: gainsboro;
+    color: darkslategray;
+    padding: 15px;
+    text-align: left;
+    
+}
+.column {
+    float: left;
+    padding: 5px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.columnmenu {
+    width: 60%;
+}
+.columncontent {
+    width: 50%;
+    float: left;
+    text-align: justify;
+    display: inline;
+}
+.columnmenu ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+.columnmenu li {
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
+    color: antiquewhite;
+}
+.columnmenu li:hover {
+    background-color: cadetblue;
+}
+.columncontent2 {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+div.box {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+}
+.box img {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    margin-left: 15px;
+}
+div.img {
+    position: relative;
+    z-index: 1;
+}
+.box p {
+    position: absolute;
+    width: 85%;
+    top: 5px;
+    z-index: 2;
+    text-align: center;
+    font-size: medium;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+/* for IE 6/7 only */
+
+.cf {
+    *zoom: 1;
+}
+
+.main {
+    background-color: antiquewhite;
+    margin: 20px 0 20px 60px;
+    padding: 10px;
+    width: 70%;
+    text-align: left;
+}
+
+.main p {
+    margin: 5px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+#contactform {
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+    padding: 0;
+    margin-right: 10px;
+}
+
+#sendform {
+    height: 25px;
+    border-radius: 5px;
+}
+
+#cred {
+    display:  none;
+}

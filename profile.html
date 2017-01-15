@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>add your profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="main.css" rel="stylesheet"/>   
+    </head>
+    <body>   
+        <header>
+            <h1><strong>mewapet</strong></h1>
+            <nav>          
+                <ul id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="posts.html">New posts</a></li>
+                    <li><a href="profile.html">Add profile</a></li>
+                    <li><abbr title="in english / po slovensky"><input id="en" type="button" value="en"><input id="sk" type="button" value="sk"></abbr></li>
+                </ul>
+            </nav>
+        </header>
+        <img class="logo" src="logomewapet.png" alt="logo" width="50"/>
+        <h2><strong>Find here everything your pets needs.</strong></h2>
+        <p><input id="search" placeholder="search" type="text"></p><br>
+        <div><strong>You can add your profile or new post in form below</strong><br>
+            <form id="contactform">
+                <br>
+                <input id="name" placeholder="enter your name" type="text"><br><br>
+                <input id="companyname" placeholder="company name"><br><br>
+                <input id="category" placeholder="category">
+                <select name="category">
+                    <option selected="" value="Default">Please select a category</option>
+                    <option value="dogs">Dogs</option>
+                    <option value="cats">Cats</option>
+                    <option value="farmanimals">Farm animals</option>
+                    <option value="smallanimals">Small animals</option>
+                </select><br><br>
+                <input id="subject" placeholder="subject" type="text"><br>
+                <br>
+                <input id="comment" placeholder="your comment"><br>
+                <br>
+                <input id="email" type="email" placeholder="enter your email"><br>
+                <br>
+                <input id="upload" placeholder="url, image or video" type="url"><br>
+                <br>
+                <input id="sendform" type="submit" value="upload"><br>
+            </form>
+        </div>
+        <footer>
+            <p>
+            <ul>
+                <li><abbr title="place for media and support logo's"><input id="support" type="button" value="Support & Media"></abbr></li>
+                <li><abbr title="please see the bottom of page"><input id="help" type="button" value="Help & Contact" onClick="clicked"></abbr></li
+            </ul>
+            </p>
+            <div>
+                <img class="image" src="browndog.jpg" alt="brown dog photo" width="80" lenght="80">
+                <img class="image" src="cat2.jpg" alt="cat2 photo" width="80" lenght="80">
+            </div>
+                <p>
+                <a href="#top">Go to top</a>
+                </p>
+                <p>
+                <address>
+                    <img class="logo" src="logomewapet.png" alt="logo" width="50"/><br>
+                Written by <a href="mailto:cafe5639samo@gmail.com">Maja D.</a><br>
+                Kindly visit us at:<br>
+                <a href="http://www.mewapet.com">mewapet.com</a><br>
+                mewapet © 2017
+                </address>
+                </p>
+                <p id="cred">
+                credentials:
+                <a href='http://www.freepik.com/free-vector/brown-dogs_807172.htm'>Designed by Freepik</a>
+                <a href='http://www.freepik.com/free-vector/cats-silhouettes-collection_719788.htm'>Designed by Freepik</a>
+                 logomakr.com/0OacRj
+                </p>
+        </footer>
+            <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
